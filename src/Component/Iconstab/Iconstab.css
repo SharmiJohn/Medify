@@ -1,0 +1,48 @@
+.Box.Active{
+    border:1px solid #2AA8FF;
+    background-color: #2AA7FF14;
+    padding:20px;
+    margin: 10px 40px 10px 40px;
+   
+
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px 10px 40px;
+}
+.Title{
+    color:#ABB6C7;
+    font-family:"Poppins";
+    font-weight: 200;
+    font-weight: 500;
+    font-size: 20px;
+}
+.title{
+    color:#2AA8FF;;
+    font-family:"Poppins";
+    font-weight: 200;
+    font-weight: 500;
+    font-size: 20px;
+}
+.iconmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconhead{
+    font-family:"Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    color: #102851;
+    font-style: normal;
+}
