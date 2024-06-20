@@ -9,7 +9,7 @@ function MyBookings() {
   const[booking,setbooking]=useState([]);
   useEffect(()=>{
     let bookingDetails=localStorage.getItem("Bookings")
-    if(booking){
+    if(bookingDetails){
       setbooking(JSON.parse(bookingDetails));
     }
   },[]);
